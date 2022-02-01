@@ -1,0 +1,37 @@
+.movieRow {
+  margin-bottom: 2rem;
+}
+
+.movieRow h2 {
+  margin: 0px 0px 0px 30px;
+  font-size: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+.movieRow--listarea {
+  overflow-x: hidden;
+  padding-left: 1.7rem;
+  box-shadow: 1px 7px 9px rgba(255, 255, 255, 0.5);
+}
+
+.movieRow--list {
+  width: 99999999px;
+}
+
+.movieRow--item {
+  display: inline-block;
+  width: 13rem;
+  cursor: pointer;
+}
+
+.movieRow--item img {
+  width: 100%;
+  transform: scale(0.9);
+  transition: all ease 0.3s;
+  border-radius: 0.7rem;
+}
+.movieRow--item img:hover {
+  transform: scale(1);
+  filter: brightness(1.2);
+}

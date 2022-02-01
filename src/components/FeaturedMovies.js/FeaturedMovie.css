@@ -1,0 +1,79 @@
+.featured {
+  height: 100vh;
+}
+
+.featuded--vertical {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+
+.featured--horizontal {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(to right, #111 30%, transparent 70%);
+}
+
+.featured--name {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #eee;
+}
+
+.featured--info {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0.9rem;
+}
+
+.featured--points,
+.featured--year,
+.featured--seasons {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.featured--points {
+  display: inline-block;
+  color: #46d369;
+  margin-right: 1rem;
+}
+
+.featured--description {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #999;
+  max-width: 45%;
+}
+
+.featured--buttons {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.btn--play,
+.btn--add {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.btn--add:hover {
+}
+
+.btn--play {
+  background-color: #eee;
+  color: #000;
+}
+
+.btn--add {
+  background-color: #333;
+  color: #eee;
+}
